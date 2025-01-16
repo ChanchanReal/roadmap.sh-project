@@ -1,0 +1,43 @@
+.html body {
+  position: relative;
+  height: 500px;
+}
+
+.cookie {
+  position: absolute;
+  background-color: black;
+  padding: 15px 30px;
+  width: 300px;
+  bottom: 30px;
+  right: 20px;
+  border-radius: 14px;
+}
+
+.cookie-icon {
+  width: 40px;
+  margin-top: 10px;
+  -webkit-filter: invert(1);
+}
+
+.cookie-close {
+  position: absolute;
+  right: 20px;
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+}
+
+.cookie-text {
+  color: white;
+  font-size: 24px;
+  width: 200px;
+}
+
+.cookie-button {
+  padding: 10px 70px;
+  border-radius: 10px;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
