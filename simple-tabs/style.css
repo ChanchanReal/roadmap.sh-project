@@ -1,0 +1,44 @@
+body{
+    font-family: monospace, Arial;
+}
+.content{
+    border: 2px solid black;
+    border-radius: 14px;
+    width: 700px;
+    padding: 30px;
+}
+
+.navigation-wrapper ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.navigation-wrapper ul li {
+    margin-right: 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.nav-selected{
+    border-bottom: 2px solid black;
+    padding-bottom: 4px;
+}
+
+.instruction{
+    width: 500px;
+}
+
+.tab{
+    padding: 80px 60px;
+    background-color: black;
+    margin-bottom: 20px;
+    border-radius: 14px;
+}
+
+.tab-content{
+    color: white;
+    text-align: center;
+}
